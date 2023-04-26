@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    
+}
+/*text and bg color*/
+:root{
+--first-color:#ff0000;
+--second-color:white;
+--third-color:black;
+--four-color:#ff5151;
+}
+/*header*/
+
+#navbarSupportedContent {
+    margin-left: 0px;
+}
+
+#navbarSupportedContent ul li a {
+    margin-left: 20px;
+    
+}
+.nav-link {
+    color:white !important;
+    
+}
+
+.nav-link:hover {
+    color: var(--first-color) !important;
+}
+
+.nav-link-active:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.nav-link-active {
+    color:var(--first-color) !important;
+    text-decoration: none;
+}
+.lolo{
+    color:var(--first-color) !important;
+    
+    font-weight: bolder;
+    font-style: normal;
+}
+#su {
+    font-size: 14px;
+    color:var(--second-color) ;
+    background-color: var(--first-color);
+     padding-left: 40px;
+      padding-right: 40px;
+      
+      font-weight: 600;
+     
+    
+}
+#su:hover{
+background-color: var(--second-color);
+color: var(--third-color);
+}
+.navbar-bg {
+    min-height: 55px !important;
+    background-color:black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navbar-bg2 {
+    background-color:black;
+    transition: all .2s ease-in-out;
+    animation: smoothScroll 1s forwards;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@keyframes smoothScroll {
+    0% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
