@@ -164,3 +164,108 @@ color: var(--third-color);
   .footer-links:hover {
     color: var(--first-color);
   }
+  /*home*/
+  .invest{
+    color: white;
+    font-weight: bolder;
+    padding-top: 35%;
+}
+.invest-1{
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+
+}
+.money-bag{
+    width: 100% !important;
+    padding-top:10%;
+}
+.btn-1{
+    margin-top: 20px;
+    background-color: var(--four-color) !important;
+    color: var(--second-color) !important;
+    font-size: 13px !important;
+
+}.btn-1:hover{
+    background-color: var(--second-color) !important;
+    color: var(--third-color) !important;
+    border: 1px solid white;
+
+}
+.btn-2{
+    margin-top: 20px;
+    border: 1px solid var(--four-color) !important;
+    color: var(--four-color) !important;
+    margin-left: 20px;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    font-size: 13px !important;
+}.btn-2:hover{
+   background-color: var(--second-color) !important;
+    color:var(--third-color) !important;
+   
+    border: 1px solid var(--second-color) !important;
+}
+#circle{
+     padding: 12px 12px 12px 12px !important;
+    border-radius: 50%;
+    border: 1px solid var(--four-color) !important;
+}
+#circle-1{ padding: 12px 12px 12px 12px !important;
+    border-radius: 50%;
+    border: 1px solid var(--four-color) !important;
+    width: 26%;
+}
+.secur{
+    display: flex;
+    justify-content: center;
+    color: var(--third-color);
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}#psc{
+     align-items: center;
+    margin-left: 3.5%;
+    background-color: white;
+}
+#white{
+    background-color: var(--second-color) !important;
+   margin-top: -80px;
+   position: absolute;
+}#movs{
+padding-top: 35px;
+}.ready{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--third-color);
+}#spaces{
+    margin-top: 90px;
+    padding-top: 20px;
+    
+}#blac{
+    background-color: var(--third-color);
+    height: 600px;
+}.pros{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #666666;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    
+}.card-link-1{
+    font-size: 13px;
+    color: var(--first-color);
+}.card-text-1{
+    height: 50px;
+    color:#666666;
+    font-weight: 500;
+}#crd{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}.clrd{
+    border: none !important;
+}
