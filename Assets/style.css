@@ -62,7 +62,7 @@ color: var(--third-color);
 }
 .navbar-bg {
     min-height: 55px !important;
-    background-color:black;
+    background-color:transparent;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
@@ -428,9 +428,9 @@ margin-top: 35px !important;
       align-items: center;
       justify-content: center;
       background-image: url('../Assets/image/Group-7.png');
-      height: 377px;
+      height: 390px;
       width: 100%;
-      margin-top: 60px;
+      margin-top: 0px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
