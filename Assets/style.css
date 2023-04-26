@@ -232,6 +232,9 @@ color: var(--third-color);
     background-color: var(--second-color) !important;
    margin-top: -80px;
    position: absolute;
+   align-items: center;
+   margin-left: 3.5%;
+   background-color: white;
 }#movs{
 padding-top: 35px;
 }.ready{
@@ -323,7 +326,7 @@ padding-top: 35px;
 }
 #sam{
     width: 85%;
-    height: 50%;
+    height: 30% !important;
 }
 #ss{
     display: flex;
@@ -388,4 +391,102 @@ margin-top: 35px !important;
 }
 #pink{
     background-color: #ffdcdc;
+}#arrow{
+    width: 15px !important;
+  
+}.cl{
+    background-image: url('../Assets/image/Ellipse 7.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    padding: 1px 11px 20px 12px !important;
+}.cl-1{
+    background-image: url('../Assets/image/Ellipse 7.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    padding: 2px 11px 20px 12px !important;
+}
+@media (max-width:578px){
+    
+    #spaces {
+        margin-top: 630px !important;
+        padding-top: 20px;
+    }#blac {
+        background-color: var(--third-color);
+        height: 680px;
+    }#white {
+        background-color: var(--second-color) !important;
+        margin-top: 0px;
+        position: absolute;
+        margin-left: -3.5%;
+   background-color: white;
+    }.clrd {
+        border: none !important;
+        margin-top: 15px;
+    }#bank{
+        width: 65%;
+        margin-top: 30px;
+    }#bank-2{
+        width: 90%;
+        margin-top: 30px;
+    }#bank-3{
+        width: 65%;
+       
+        margin-top: 30px;
+    }#bls {
+        background-color: var(--third-color) !important;
+        margin-top: 25px;
+    }.crls {
+        
+        margin-top: 10px;
+    }#pink {
+        background-color: #ffdcdc;
+        margin-top: 15px;
+    }#crd {
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(min-width:1900px){
+    #white {
+        background-color: var(--second-color) !important;
+        margin-top: -100px;
+        position: absolute;
+        align-items: center;
+        margin-left: 15%;
+        background-color: white;
+    }#blac {
+        background-color: var(--third-color);
+        height: 680px;
+    }
+}
+@media (min-width:1500px) and (max-width:1890px){
+    #white {
+        background-color: var(--second-color) !important;
+        margin-top: -100px;
+        position: absolute;
+        align-items: center;
+        margin-left: 9%;
+        background-color: white;
+    }#blac {
+        background-color: var(--third-color);
+        height: 680px;
+    }
+}
+@media (min-width:1300px) and (max-width:1490px){
+    #white {
+        background-color: var(--second-color) !important;
+        margin-top: -100px;
+        position: absolute;
+        align-items: center;
+        margin-left: 2%;
+        background-color: white;
+    }#blac {
+        background-color: var(--third-color);
+        height: 680px;
+    }
 }
