@@ -489,6 +489,25 @@ margin-top: 35px !important;
     box-shadow: 0px 15px 35px #ff5151;
     width: 24rem;height: 25rem;
   }
+  /*platform*/
+  .web{
+    display: flex;
+    justify-content: center;
+    color: var(--third-color);
+
+  }.csc{
+    margin-left: -100px !important;
+  }.los{
+    color: var(--first-color);
+    font-size: 20px;
+   
+  }.loe{
+    margin-top: 30px;
+  }#sas{
+    margin-top: 50px;
+  }#laptop{
+    width: 100%;
+  }
 @media (max-width:578px){
     #arr-1 {
         width: 25% !important;
