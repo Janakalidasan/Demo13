@@ -268,4 +268,124 @@ padding-top: 35px;
     justify-content: center;
 }.clrd{
     border: none !important;
+}#sp{
+    background-color: #000c14 !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}#bank{
+    width: 65%;
+}#bank-2{
+    width: 90%;
+    margin-top: 10px;
+}#bank-3{
+    width: 65%;
+   
+    margin-top: 10px;
+}#sp{
+    margin-top: 10%;
+}#sps{
+    margin-top: 6%;
+}.collect{
+    font-size: 35px;
+ 
+}.bring{
+    margin-top: 18px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #666666;
+
+}
+.btn-3{
+    margin-top: 20px;
+    background-color: var(--four-color) !important;
+    color: var(--second-color) !important;
+    font-size: 13px !important;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+
+}.btn-3:hover{
+    background-color: var(--third-color) !important;
+    color: var(--second-color) !important;
+    border: 1px solid white;
+
+}#cow{
+    width: 65%;
+   
+}
+#bls{
+    background-color: var(--third-color) !important;
+}
+.mores{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--third-color);
+}
+#sam{
+    width: 85%;
+    height: 50%;
+}
+#ss{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}.threes{
+    color: #666666 !important;
+    
+}.low{
+    color: #666666;
+    font-weight: 500;
+}#sms ul li{
+    line-height: 40px !important;
+}.card-title-2{
+    margin-left: 18px;
+}#pace{
+    margin-top: 4%;
+}.crls{
+    border: none !important;
+    box-shadow: 0px 28px 38px #fadada;
+}.btn-4{
+    margin-top: 20px;
+    background-color: var(--four-color) !important;
+    color: var(--second-color) !important;
+    font-size: 13px !important;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+margin-top: 35px !important;
+
+}.btn-4:hover{
+    background-color: var(--third-color) !important;
+    color: var(--second-color) !important;
+    border: 1px solid white;
+
+}#app{
+    margin-top: 12% !important;
+}#pen-4{
+    background-color: var(--third-color);
+    padding-top: 7px;
+    padding-left: 19px;
+    border-radius: 5px;
+}#pen-5{
+    width: 65%;
+}.card-title-9{
+    color: var(--second-color);
+    font-size: 14px;
+}.card-text-9{
+    color: var(--second-color);
+}.one{
+    font-size: 31px;
+}#app-1{
+    margin-top: 4% !important;
+}#pen-6{
+    width: 80%;
+}.phones{
+    margin-top: 10px;
+
+}.phones-1{
+    margin-top: 10px;
+      background-color: var(--second-color) !important;
+}
+#pink{
+    background-color: #ffdcdc;
 }
