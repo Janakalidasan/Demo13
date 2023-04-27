@@ -613,6 +613,15 @@ margin-top: 10%;
     margin-top: 10%;
 }
 @media (max-width:578px){
+    #nsm{
+        margin-top: 20px;
+    }
+    #size {
+        width: 20rem;
+        height: 23rem;
+        background-color: rgba(246, 245, 245, 1) !important;
+        box-shadow: 0px 0px 6px #000c14;
+    }
     .classs {
         overflow-x: scroll !important;
     
