@@ -587,6 +587,26 @@ margin-top: 10%;
     color: var(--second-color) !important;
     border: 1px solid white;
 
+}#ms{
+    margin-top: 4%;
+}#sps-5{
+    margin-top: 8%;
+}#ecos{
+    height: 50% !important;
+}.hay{
+    color: #666666 !important;
+    font-size: 14px;
+    margin-top: 10%;
+    font-weight: 500;
+    
+}#size{
+    width: 23rem;
+}.card-title{
+    font-weight: bold;
+    font-size: 22px;
+}.card-text{
+    font-size: 17px;
+    margin-top: 10%;
 }
 @media (max-width:578px){
     #pink-color-2 {
