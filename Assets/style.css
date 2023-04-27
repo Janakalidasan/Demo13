@@ -530,6 +530,13 @@ margin-top: 35px !important;
     color: var(--first-color);
     text-align: center;
     margin-top: 50px;
+}.num-1 {
+    background-color:rgba(255, 236, 234, 1)  ;
+    padding: 10% 15%;
+    border-radius: 50%;
+    color: var(--first-color);
+    text-align: center;
+    margin-top: 50px;
 }
 .lowest{
     display: flex;
