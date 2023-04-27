@@ -601,14 +601,22 @@ margin-top: 10%;
     
 }#size{
     width: 23rem;
+    height: 23rem;
+    background-color: rgba(246, 245, 245, 1) !important;
+    box-shadow: 0px 0px 6px #000c14;
 }.card-title{
     font-weight: bold;
     font-size: 22px;
+    margin-top: 6%;
 }.card-text{
     font-size: 17px;
     margin-top: 10%;
 }
 @media (max-width:578px){
+    .classs {
+        overflow-x: scroll !important;
+    
+    }
     #pink-color-2 {
         display: flex;
         flex-direction: column-reverse;
