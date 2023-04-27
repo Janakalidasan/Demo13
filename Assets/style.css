@@ -563,6 +563,13 @@ margin-top: 35px !important;
         display: flex;
         justify-content: center;
     }
+    #laptop-1 {
+        width: 100%;
+        margin-top: 0px !important;
+    }.csc {
+        margin-left: 0px !important;
+        margin-top: 15px;
+    }
 }
 @media(min-width:1900px){
     #white {
