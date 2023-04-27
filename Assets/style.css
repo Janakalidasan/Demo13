@@ -467,7 +467,10 @@ margin-top: 35px !important;
   }
   
   #moo{
-    margin-top: 20px;
+    margin-top: -50px;
+    z-index: 1;
+    background-color: var(--second-color) !important;
+    position: relative;
   }
   .mts{
     display: flex;
