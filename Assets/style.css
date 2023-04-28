@@ -679,7 +679,7 @@ margin-top: 10%;
     background: #675AFE;
   }
  
-  .beneift header{
+  .beneift h3{
     font-size: 28px;
     font-weight: 500;
     text-align: center;
@@ -736,8 +736,10 @@ padding-bottom: 5%;
     justify-content: center;
   }
   form .exchange-rate{
-    display: flex;
-    justify-content: end;
+    text-align: end;
+    margin-top: 0px;
+  }  form .exchange-rate-1{
+    text-align: end;
     margin-top: 0px;
   }
   form .bi{
@@ -795,12 +797,16 @@ padding-bottom: 5%;
     display: none ;
 }#usd-1{
     display: none ;}
-/* }#inr{
-    display: block ;
-}#usd{
-    display: block ;
-} */
+#chage-1{
+ display: none;
+}
 @media (max-width:578px){
+    .beneift h3 {
+        font-size: 28px;
+        font-weight: 500;
+        text-align: center;
+        height: 130px;
+    }
     .btn-7 {
         height: 52px;
         margin-top: 20px;
