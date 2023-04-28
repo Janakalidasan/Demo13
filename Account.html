@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>   
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/155ad7575b.js" crossorigin="anonymous"></script>
 </head>
@@ -136,8 +136,60 @@
                </div>
          </div>
   </div>
+  <!--3-->
+  <div class="container-fluid" id="sps">
+          <div class="container">
+               <div class="d-flex justify-content-center">
+                <!-- <form>
+                  <div class="mb-3">
+                    <input type="text" class="inr-1" placeholder="INR">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="inr-2" placeholder="USD">
+                  </div>
+                  <div>
+                    <button><i class="fa-sharp fa-regular fa-right-left" style="color: #f41010;"></i></button>
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="usd-1" placeholder="USD">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="usd-2" placeholder="INR">
+                  </div>
+                 
+                  
+                </form> -->
+                <div class="wrapper">
+                  <header>Currency Converter</header>
+                  <form action="#">
+                   <div class="from">
+                        <div class="select-box inr">
+                         <input class="select" type="text" value="INR">
+                        </div>
+                        <div class="select-box usd-1" >
+                          <input class="select" type="text" value="USD">
+                         </div>
+                      </div>
+                      <div class="icon"><img src="Assets/image/ri_exchange-fill.svg" class="bi"></div>
+                      <div class="to">
+                        <div class="select-box usd">
+                          <input class="select" type="text" value="USD">
+                        </div>
+                        <div class="select-box inr-1">
+                          <input class="select" type="text" value="INR">
+                        </div>
+                      </div>
+                  
+                    <div class="exchange-rate">Getting exchange rate...</div>
+                    <button>Get Exchange Rate</button>
+                  </form>
+                </div>
+               </div>
+          </div>
+  </div>
   <footer></footer>
   <!---->
+  <script src="./Assets/js/country-list.js"></script>
    <script src="./Assets/js/script.js"></script>
    <script>
      $(document).ready(function () {
