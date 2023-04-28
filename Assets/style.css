@@ -173,13 +173,13 @@ color: var(--third-color);
   /*home*/
   .invest{
     color: white;
-    font-weight: bolder;
+    font-weight: 500;
     padding-top: 35%;
 }
 .invest-1{
     margin-top: 20px;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
 
 }
 .money-bag{
