@@ -25,3 +25,5 @@ fetch("./footer.html")
         document.querySelector("footer").innerHTML = data;
     });
 // new
+
+
